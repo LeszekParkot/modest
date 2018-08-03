@@ -1,0 +1,24 @@
+.text-hide {
+  margin: 0;
+}
+
+.sectionHeader{
+	font-weight: bold;
+	text-transform: uppercase;
+	display: flex;
+	margin-bottom: 2rem;
+	&::before{
+		content: "";
+		display: block;
+		width: 0.5rem;
+		height: 2rem;
+		background-color: #ced5db;
+		align-self: center;
+		margin-right: 1rem;
+	}
+}
+
+.main-width{
+	max-width: 1140px;
+	margin: 0 auto;
+}

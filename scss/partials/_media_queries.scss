@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+	header .navbar .navbar-nav .nav-item{
+		padding-left: 2rem;
+	}
+	.carousel-indicators{
+		bottom: 20px;
+	}
+	.carousel-caption {
+	  top: 40px;
+	  h3{
+		  font-size: 2.5rem;
+	  }
+	  p{
+		  font-size: 1rem;
+		}
+	}
+	footer .row{
+		padding-left: 2rem;
+		padding-right: 2rem;
+		p{
+			margin-top: 1rem;
+		}
+	}
+	#service .row p{
+		max-width: 370px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.carousel-caption {
+	  top: 40px;
+	  h3{
+		  font-size: 2.75rem;
+	  }
+	  p{
+		  font-size: 1.25rem;
+		}
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.carousel-caption {
+	  top: 80px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.carousel-caption {
+	  top: 120px;
+	}
+}

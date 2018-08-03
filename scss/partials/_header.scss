@@ -1,0 +1,46 @@
+.navbar{
+	.navbar-brand{
+		padding-top: 0.75rem;
+		padding-bottom: 0.75rem;
+	}
+
+	.navbar-toggler{
+		&:focus{
+			outline: none;
+		}
+		&:hover{
+			outline: none;
+			box-shadow: 0 0 0.5rem #a4aead;
+			transition: all 0.5s ease;
+		}
+	}
+
+	.navbar-nav{
+		a.text-light:focus{
+			color: #fff !important;
+		}
+		a{
+			border: 1px solid transparent;
+			border-radius: 0.5rem;
+
+			&:hover{
+				box-shadow: 0 0 0.5rem #a4aead;
+				transition: box-shadow 0.6s ease;
+			}
+			&:active{
+				border: 1px solid lightblue;
+				color: #24b7a4;
+				box-shadow: none;
+				outline: none;
+			}
+		}
+		.nav-link{
+			padding-right: 0.75rem;
+			padding-left: 0.75rem;
+		}
+		.active span{
+			border-bottom: 1px solid #fff;
+			padding-bottom: 3px;
+		}
+	}
+}

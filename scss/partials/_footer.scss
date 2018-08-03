@@ -1,0 +1,25 @@
+footer{
+	background-color: #3b454e;
+}
+
+footer .row{
+	justify-content: space-between;
+	flex-wrap: wrap-reverse;
+	align-items: center;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	p{
+		font-size: 1rem;
+		color: #fff;
+		padding-right: 2rem;
+		margin-bottom: 0;
+	}
+	i{
+		font-size: 1.75rem;
+		color: #fff;
+		&:hover{
+			color: lightblue;
+			transition: ease 0.5s;
+		}
+	}
+}

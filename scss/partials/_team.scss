@@ -1,0 +1,66 @@
+#team{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	figure{
+		position: relative;
+		background-color: #e1e6ea;
+
+		&:hover{
+			img{
+				opacity: 0.3;
+			}
+			.social_media{
+				opacity: 1;
+			}
+			i:hover{
+				background-color: rgba(59, 69, 78, 0.8);
+
+			}
+			figcaption{
+				background-color: #3b454e;
+				h4, p{
+					color: #fff;
+				}
+			}
+		}
+
+		img{
+			opacity: 1;
+			display: block;
+			width: 100%;
+			height: auto;
+			transition: .6s ease;
+		}
+		.social_media{
+			position: absolute;
+			width: 100%;
+			top: 30%;
+			transition: .4s ease;
+			opacity: 0;
+			text-align: center;
+			cursor: pointer;
+			i{
+				font-size: 1.75rem;
+				color: #fff;
+				background-color: #3b454e;
+				padding: 0.5rem;
+			}
+		}
+
+		figcaption{
+			padding: 1rem 1.5rem .1rem 1.5rem;
+			text-align: left;
+			font-weight: bold;
+			transition: .4s ease;
+			h4{
+				color: #292f36;
+				font-size: 1.25rem;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+			p{
+				color: #7d7f82;
+			}
+		}
+	}
+}
